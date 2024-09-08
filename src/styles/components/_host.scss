@@ -1,0 +1,29 @@
+@use "../utils/" as *;
+
+.host {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    &__name {
+        width: 100px;
+        font-size: $font-size-m;
+        color: $color-primary;
+        @media (max-width: 769px) {
+            font-size: $font-size-xs;
+        }
+    }
+    &__img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        @media (max-width: 769px) {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    @media (max-width: 769px){
+        gap: 10px;
+    }
+}

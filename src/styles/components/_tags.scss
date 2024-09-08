@@ -1,0 +1,22 @@
+@use "../utils/" as *;
+
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 10px;     
+  &__item {
+    color: $color-text-inverted;
+    background-color: $color-primary;
+    border-radius: 10px;
+    padding: 4px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    @media (max-width: 769px) {
+      font-size: $font-size-xs;
+    }
+  }
+}
