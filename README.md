@@ -1,7 +1,21 @@
-# P7 : React + Vite
+# Project 7
 
-### GitHub
+## Kasa
 
-[Suivi du rendu des projets](https://boutzi.github.io/openclassrooms/)
+Create a real estate rental web application with React
 
-[Suivi du code des projets](https://github.com/Boutzi/openclassrooms/tree/main/integrateur-web)
+## Installation
+
+### Clone the Repository
+```bash
+    git clone https://github.com/Boutzi/oc-integrateur-web-p7.git
+```
+### Install Dependencies
+```bash
+    npm install
+```
+### Start the project
+```bash
+    npm start
+```
+
